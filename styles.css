@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.black {
+    height: 33%;
+    width: 100%;
+    background-color: black;
+    float: left;
+}
+
+.red {
+    height: 33%;
+    width: 100%;
+    background-color: red; 
+    float: left;   
+}
+
+.yellow {
+    height: 33%;
+    width: 100%;
+    background-color: yellow;
+    float: left;
+}
+
+@media only screen and (min-width: 900px) {
+    .black, .red, .yellow {
+        width: 33%;
+        height: 100%;
+    }
+}
